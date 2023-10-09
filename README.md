@@ -1,3 +1,10 @@
+# go.mau.fi/webp
+This is a fork of github.com/chai2010/webp with libwebp updated to v1.0.3 and
+the decoding functionality disabled by default (i.e. this package won't register
+itself with `image.Decode` unless you call `Register`).
+
+# Original readme below
+
 - *Go语言QQ群: 102319854, 1055927514*
 - *凹语言(凹读音“Wa”)(The Wa Programming Language): https://github.com/wa-lang/wa*
 
