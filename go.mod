@@ -4,6 +4,8 @@
 
 module go.mau.fi/webp
 
-go 1.17
+go 1.22.0
 
-require golang.org/x/image v0.0.0-20211028202545-6944b10bf410
+toolchain go1.23.5
+
+require golang.org/x/image v0.23.0
