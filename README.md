@@ -1,5 +1,5 @@
 # go.mau.fi/webp
-This is a fork of github.com/chai2010/webp with libwebp updated to v1.0.3 and
+This is a fork of github.com/chai2010/webp with libwebp updated to v1.5.0 and
 the decoding functionality disabled by default (i.e. this package won't register
 itself with `image.Decode` unless you call `Register`).
 
